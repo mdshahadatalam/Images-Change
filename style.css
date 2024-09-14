@@ -1,0 +1,65 @@
+.img{
+    width: 30%;
+    margin: 0px 5px;
+}
+
+.Img-design{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+.imgApecial{
+    width: 23%;
+}
+
+aside{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    backdrop-filter: blur(5px);
+    visibility: hidden;
+    /* position: relative; */
+}
+
+aside.active{
+    visibility: visible;
+}
+
+.Icon{
+ position: absolute;
+ font-size: 22px;
+ color: #fff;
+ top: 135px;
+ right: 381px;
+}
+
+.leftIcon{
+    position: absolute;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    display: flex;
+    top: 280px;
+    left: 344px;
+}
+
+.rightIcon{
+    position: absolute;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    display: flex;
+    top: 270px;
+    right:344px;
+}
